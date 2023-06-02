@@ -36,4 +36,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ env.DOCKERHUB_REPOSITORY }}/pythonHelloword:latest
+          tags: orovium/pythonHelloword:latest
